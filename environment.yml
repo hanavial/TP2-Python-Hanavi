@@ -1,0 +1,16 @@
+name: tp2_hanavi
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - jupyterlab==3.4 
+    - matplotlib==3.5
+    - pandas==1.4
+    - scikit-learn==1.1
+    - statsmodels==0.13
+    - pillow==9.2
+    - numpy==1.23
+    - widgetsnbextension==4.0
